@@ -1,12 +1,14 @@
 # 🫀 Stroke Risk Predictor
 
+   ![App screenshot](assets/screenshot.png)
+   
 A small machine-learning web app that estimates stroke risk from symptoms and age,
 using two models side by side:
 
 - **Regression:** predicts the stroke risk as a percentage (0-100%).
 - **Classification:** predicts whether the person is "At Risk" (risk >= 50%).
 
-**Live demo:** _add your Streamlit link here_
+**Live demo:** https://stroke-risk-app-nfhglrhmveh7h5ci4zd3gb.streamlit.app/
 
 > ⚠️ **Disclaimer:** this is an educational demo, not a medical tool. The dataset appears to be
 > synthetic (the `At Risk` label is defined as `Stroke Risk (%) >= 50`), so the models learn that
