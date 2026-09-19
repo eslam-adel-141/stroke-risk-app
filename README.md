@@ -37,7 +37,7 @@ notebooks/         Full workflow: EDA, model comparison, training, export
 
 ## Run locally
 ```bash
-git clone https://github.com/<eslam-adel-141>/stroke-risk-app.git
+git clone https://github.com/eslam-adel-141/stroke-risk-app.git
 cd stroke-risk-app
 pip install -r requirements.txt
 streamlit run main.py
