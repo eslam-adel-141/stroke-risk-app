@@ -1,0 +1,31 @@
+{
+  "features": [
+    "Chest Pain",
+    "Shortness of Breath",
+    "Irregular Heartbeat",
+    "Fatigue & Weakness",
+    "Dizziness",
+    "Swelling (Edema)",
+    "Pain in Neck/Jaw/Shoulder/Back",
+    "Excessive Sweating",
+    "Persistent Cough",
+    "Nausea/Vomiting",
+    "High Blood Pressure",
+    "Chest Discomfort (Activity)",
+    "Cold Hands/Feet",
+    "Snoring/Sleep Apnea",
+    "Anxiety/Feeling of Doom",
+    "Age"
+  ],
+  "age_min": 18,
+  "age_max": 90,
+  "reg_metrics": {
+    "r2": 0.9809418185862588,
+    "mae": 1.5682434354047157
+  },
+  "clf_metrics": {
+    "accuracy": 0.9575239199768049,
+    "f1": 0.9677490368739681,
+    "roc_auc": 0.9911207419028939
+  }
+}
